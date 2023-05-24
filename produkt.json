@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Kungsgran",
+        "category" : "träd",
+        "price" : "250",
+        "imgSrc" : "Images/Kungsgran.webp"
+    },
+    {
+        "name" : "Rödgran",
+        "category" : "träd",
+        "price" : "350",
+        "imgSrc" : "Images/Rödgran.jpg"
+    },
+    {
+        "name" : "julgranpyntad",
+        "category" : "träd",
+        "price" : "400",
+        "imgSrc" : "Images/julgranpyntad.jpg"
+    },
+    {
+        "name" : "plastgran",
+        "category" : "träd",
+        "price" : "150",
+        "imgSrc" : "Images/plastgran.jpg"
+    },
+    {
+        "name" : "Lövträd",
+        "category" : "träd",
+        "price" : "5000",
+        "imgSrc" : "Images/träd1.jpg"
+    }, 
+    {
+        "name" : "Lövträd",
+        "category" : "träd",
+        "price" : "3500",
+        "imgSrc" : "Images/träd2.jpg"
+    },  
+    {
+        "name" : "Storträd",
+        "category" : "träd",
+        "price" : "7500",
+        "imgSrc" : "Images/träd3.jpg"
+    },  
+    {
+        "name" : "Buske",
+        "category" : "träd",
+        "price" : "399",
+        "imgSrc" : "Images/buske.jpg"
+    },
+    {
+        "name" : "KolGrill",
+        "category" : "Grill",
+        "price" : "1050",
+        "imgSrc" : "Images/grill1.jpg"
+    },
+    {
+        "name" : "björkved",
+        "category" : "ved",
+        "price" : "150",
+        "imgSrc" : "Images/björkved.jpg"
+    },
+    {
+        "name" : "GasolGrill",
+        "category" : "Grill",
+        "price" : "1500",
+        "imgSrc" : "Images/grill2.jpg"
+    },
+    {
+        "name" : "tändvätska",
+        "category" : "tändvätska",
+        "price" : "50",
+        "imgSrc" : "Images/tändars.avif"
+    }
+]

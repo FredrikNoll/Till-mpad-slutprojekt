@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.bildspel{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation{
+    overflow: hidden;
+    text-align: center;
+}
+
+ul li{
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+
+ul li a{
+    color: white;
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.dropContent a{
+    display: block;
+}
+
+.dropContent{
+    position: absolute;
+    min-width: 100px;
+    display: block;
+    animation: slowdrop 0.5s linear;
+    overflow: hidden;
+}
+
+@media (hover :hover){
+    ul li a:hover , .dropDown:hover .dropBtn{
+        color: #FFD700;
+    }
+    .dropDown:hover .dropContent{
+        display: block;
+    }
+    .dropContent{
+        display: none;
+    }
+    
+}
+
+@media (hover :none){
+    ul li{
+        top: 730px;
+        left: 10px;
+    }
+   .dropBtn{
+    display: none;
+   }
+}
+
+@keyframes slowdrop{
+    from{max-height: 0px; }
+    to{max-height: 300px;}
+}
+
+
+.innehåll{
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 20px;
+}
+
+
